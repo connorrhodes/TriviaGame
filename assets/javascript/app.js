@@ -42,7 +42,7 @@ var question;//after clicking play again more than 13 times
     }
     function newQuestion() {
         if (right + wrong >= gameLength) {
-            gameover();
+            gameOver();
         } else {
             //picks a random question that hasn't been asked yet
             var questionNumber = Math.floor(Math.random() * library.length);
