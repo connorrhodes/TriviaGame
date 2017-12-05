@@ -51,11 +51,11 @@ var questionsLibrary = [
     {
         question: "Pick 3?",
         answers: ["1", "2", "3", "4"],
-        correctAnswer: 3,
+        correctAnswer: 2,
         image: "assets/images"
     },
     {
-        question: " ?",
+        question: "Pick 2?",
         answers: ["1", "2", "3", "4"],
         correctAnswer: 1,
         image: "assets/images"

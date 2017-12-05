@@ -27,10 +27,10 @@ var question;//after clicking play again more than 13 times
         $("#qText").html('Welcome to the Trivia Game!');
         $("#result").hide();
         //$("#choices").hide();
-        //$("#choices li").empty();
+        $("#choices li").empty();
         $(".scoreboard").empty();
         //click listeners
-        $("#choices .answer").off().on("click", makeGuess);
+        $("#choices .answer").off().on("click", makeGuess);//essentially these two jQuery methods .off() are suppost to remove the click event once the button is clicked
         $("#startGame").off().on("click", newQuestion);
         //resets variables
         wrong = 0;
@@ -66,6 +66,7 @@ var question;//after clicking play again more than 13 times
             wrong++;
             showResult("Wrong. The correct answer was " + currentQuestion.answers[currentQuestion.correctAnswer], "wrongResult");
         }
+        console.log(currentQuestion.answers);
     }
     function showResult(msg, addThisClass) {
         resetTimer();
