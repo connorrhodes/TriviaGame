@@ -121,7 +121,7 @@
     } */
     .sectionQ {
         background-color: rgb(180, 250, 255);
-        opacity: .35;
+        opacity: .15;
         position: absolute;
         z-index: -1;
         top: 0;
