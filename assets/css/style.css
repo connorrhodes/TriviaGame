@@ -44,6 +44,8 @@
 
     body {
         text-align: center;
+        background-repeat: no-repeat;
+        background-image: url("../images/trivia.jpg");
     }
 
     /* section {
@@ -68,7 +70,7 @@
     .scoreboard {
         float: left;
         margin: 2%;
-        background-color: #c5bbac;
+        background-color: #8876f8;
         width: 20%;
         padding: 15px 6px;
         height: 52px;
@@ -85,6 +87,10 @@
     #choices ol {
         position: relative;
     }
+    .answer {
+        cursor: pointer;
+        margin: 5px;
+    }
     button {    
         /*display: block;*/
         /*margin: auto;*/
@@ -92,15 +98,29 @@
         font-size: 48px;
         font-family: "Tangerine", serif;
         margin-top: 4%;
-        background-color: #81f7a8;
+        background-color: #a8f1bf;
         border-color: #666;
         border-radius: 7px;
         
         color: white;
     }
+    
     #choices {
         display: none;
     }
     #choices ol {
         position: relative;
+    }
+   
+    #result.correctResult {
+        background-image: url("../images/correct.png");
+         background-size: 250px 250px;
+    }
+    #result.wrongResult {
+        background-image: url("../images/incorrect.png");
+         background-size: 230px 230px;
+    }
+    #result.timesUp {
+        background-image: url("../images/timesup.png");
+         background-size: 230px 230px;
     }
