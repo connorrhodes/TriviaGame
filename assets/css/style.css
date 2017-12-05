@@ -45,3 +45,62 @@
     body {
         text-align: center;
     }
+
+    /* section {
+        color: rgb(14, 10, 5);
+        padding: 4%;
+        margin: 0 7% 3% 7%;
+        position: relative;  
+        top: -18px;  
+        line-height: 35px;
+        clear: both;
+        background: rgb(255, 253, 253);
+    } */
+    #qText {
+        position: relative;
+        
+    }
+    button#newGame {
+        position: absolute;
+        /*right: 30px;*/
+        top: 10px;
+    }
+    .scoreboard {
+        float: left;
+        margin: 2%;
+        background-color: #c5bbac;
+        width: 20%;
+        padding: 15px 6px;
+        height: 52px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    #score {
+        font-size: small;
+        padding-top: 8px;
+    }
+    #choices {
+        display: none;
+    }
+    #choices ol {
+        position: relative;
+    }
+    button {    
+        /*display: block;*/
+        /*margin: auto;*/
+        padding: 2%;
+        font-size: 48px;
+        font-family: "Tangerine", serif;
+        margin-top: 4%;
+        background-color: #81f7a8;
+        border-color: #666;
+        border-radius: 7px;
+        
+        color: white;
+    }
+    #choices {
+        display: none;
+    }
+    #choices ol {
+        position: relative;
+    }
