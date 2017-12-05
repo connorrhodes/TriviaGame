@@ -30,51 +30,51 @@ var questionsLibrary = [
         image: "assets/images"
     },
     {
-        question: " ?",
-        answers: ["", "", "", ""],
+        question: "In game of thrones, there has always been two rival families the show has followed throughout the show. Who are they?",
+        answers: ["Starks/Grejoys", "Starks/Lannisters", "Starks/Boltons", "/Lannisters/Tyrells"],
         correctAnswer: 1,
         image: "assets/images"
     },
     {
-        question: " ?",
-        answers: ["", "", "", ""],
-        correctAnswer: 1,
+        question: "Pick 1?",
+        answers: ["1", "2", "3", "4"],
+        correctAnswer: 0,
+        image: "assets/images"
+    },
+    {
+        question: "Pick 3?",
+        answers: ["1", "2", "3", "4"],
+        correctAnswer: 2,
+        image: "assets/images"
+    },
+    {
+        question: "Pick 3?",
+        answers: ["1", "2", "3", "4"],
+        correctAnswer: 3,
         image: "assets/images"
     },
     {
         question: " ?",
-        answers: ["", "", "", ""],
+        answers: ["1", "2", "3", "4"],
         correctAnswer: 1,
         image: "assets/images"
     },
     {
-        question: " ?",
-        answers: ["", "", "", ""],
-        correctAnswer: 1,
+        question: "Pick 4?",
+        answers: ["1", "2", "3", "4"],
+        correctAnswer: 3,
         image: "assets/images"
     },
     {
-        question: " ?",
-        answers: ["", "", "", ""],
-        correctAnswer: 1,
+        question: "Pick 1?",
+        answers: ["1", "2", "3", "4"],
+        correctAnswer: 0,
         image: "assets/images"
     },
     {
-        question: " ?",
-        answers: ["", "", "", ""],
-        correctAnswer: 1,
-        image: "assets/images"
-    },
-    {
-        question: " ?",
-        answers: ["", "", "", ""],
-        correctAnswer: 1,
-        image: "assets/images"
-    },
-    {
-        question: " ?",
-        answers: ["", "", "", ""],
-        correctAnswer: 1,
+        question: "Pick 1?",
+        answers: ["1", "2", "3", "4"],
+        correctAnswer: 0,
         image: "assets/images"
     }
 
