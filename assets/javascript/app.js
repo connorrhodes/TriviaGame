@@ -35,7 +35,7 @@ var gameLength; //set this limit to number of questions per game
         wrong = 0;
         right = 0;
         //library
-        library = questionsLibrary.slice();
+        library = questionsLibrary.slice();//slices apart the object values, you can see what it references by mousing over
         timeToGuess = questionLength;
         gameLength = library.length;
     }

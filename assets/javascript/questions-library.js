@@ -1,3 +1,4 @@
+//13 question objects that app.js will reference correct and incorrect answers picked
 var questionsLibrary = [
     {
         question: "Whats the capitol city of Oregon?",
