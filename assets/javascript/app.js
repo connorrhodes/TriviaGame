@@ -29,8 +29,8 @@ var gameLength; //set this limit to number of questions per game
         $("#choices li").empty();
         $(".scoreboard").empty();
         //click listeners
-        $("#choices.answer").off().on("click", makeGuess);
-        $("startGame").off().on("click", newQuestion);
+        $("#choices .answer").off().on("click", makeGuess);
+        $("#startGame").off().on("click", newQuestion);
         //resets variables
         wrong = 0;
         right = 0;

@@ -17,7 +17,7 @@
     <!-- references -->
     <script type="text/javascript" src="assets/javascript/questions-library.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
-    
+
 
     <title>Trivia Game</title>
 </head>
@@ -26,25 +26,26 @@
     <div class="jumbotron">
         <h1>Trivia Woooooo</h1>
     </div>
-    <form>
-        <div id="score" class="scoreboard"></div>
-        <div id="timer" class="scoreboard"></div>
-        <section id="question">
-            <div class="sectionQ"></div>
-            <div id="qText"></div>
-        </section>
-        <section id="choices">
-            <div class="sectionQ"></div>
-            <ol>
-                <li class="answer" data-choice=0></li>
-                <li class="answer" data-choice=1></li>
-                <li class="answer" data-choice=2></li>
-                <li class="answer" data-choice=3></li>
-            </ol>
-            <div id="result"></div>
+    <!--<form>-->
+    <button id='startGame'>Play Again</button><!--Button was suppost to be called from gameOver() but failed to do so on initialization -->
+    <div id="score" class="scoreboard"></div>
+    <div id="timer" class="scoreboard"></div>
+    <section id="question">
+        <div class="sectionQ"></div>
+        <div id="qText"></div>
+    </section>
+    <section id="choices">
+        <div class="sectionQ"></div>
+        <ol>
+            <li class="answer" data-choice=0></li>
+            <li class="answer" data-choice=1></li>
+            <li class="answer" data-choice=2></li>
+            <li class="answer" data-choice=3></li>
+        </ol>
+        <div id="result"></div>
 
-        </section>
-    </form>
+    </section>
+    <!--</form>-->
 
 
 
