@@ -1,9 +1,9 @@
 var questionsLibrary = [
     {
-        question: "What was Tyrion's mother's name?",
-        answers: ["Joanna", "Tysha", "Shiera", "No one knows."],
+        question: "?",
+        answers: ["", "", "", ""],
         correctAnswer: 0,
-        image: "assets/images/questionImages/000.jpg"
+        image: "assets/images/"
     },
     {
         question: " ?",
