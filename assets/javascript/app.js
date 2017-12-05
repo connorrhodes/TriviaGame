@@ -10,7 +10,8 @@ var library;
 var questionLength = 10; //seconds you have to guess
 var answerLength = 3; //seconds you're shown the answer
 var gameLength; //set this limit to number of questions per game
-
+var question;//after clicking play again more than 13 times
+             //the game throws an Uncaught typeerror
 
 
 
@@ -25,8 +26,8 @@ var gameLength; //set this limit to number of questions per game
         //displays the initial intro
         $("#qText").html('Welcome to the Trivia Game!');
         $("#result").hide();
-        $("#choices").hide();
-        $("#choices li").empty();
+        //$("#choices").hide();
+        //$("#choices li").empty();
         $(".scoreboard").empty();
         //click listeners
         $("#choices .answer").off().on("click", makeGuess);
@@ -83,6 +84,11 @@ var gameLength; //set this limit to number of questions per game
         } else {
             timesUp();
         }
+    function timesUp(){
+        wrong++;
+        resetTimer();
+        showResult("Times up! The correct answer was " + currentQuestion.answers[currentQuestion.correctAnswer], "times up");
+    }
 
     }
     function resetTimer() {
