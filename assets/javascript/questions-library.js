@@ -32,7 +32,7 @@ var questionsLibrary = [
     },
     {
         question: "In game of thrones, there has always been two rival families the show has followed throughout the show. Who are they?",
-        answers: ["Starks/Grejoys", "Starks/Lannisters", "Starks/Boltons", "/Lannisters/Tyrells"],
+        answers: ["Starks/Grejoys", "Starks/Lannisters", "Starks/Boltons", "Lannisters/Tyrells"],
         correctAnswer: 1,
         image: "assets/images"
     },

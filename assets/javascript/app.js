@@ -66,7 +66,8 @@ var question;//after clicking play again more than 13 times
             wrong++;
             showResult("Wrong. The correct answer was " + currentQuestion.answers[currentQuestion.correctAnswer], "wrongResult");
         }
-        console.log(currentQuestion.answers);
+        console.log(currentQuestion.answers);//just a test to see if the answers were actually being found in the question object
+                                             //the test was proven right, the answers were found, but still trying to find the original cause
     }
     function showResult(msg, addThisClass) {
         resetTimer();
